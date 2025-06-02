@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+
+
+
+    <meta charset="UTF-8"><title>Contacto</title>
+    
+    
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f0f8ff;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #00796B;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 36px;
+    }
+
+    nav {
+        background-color: #004D40;
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    .contenido {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .contenido img {
+        width: 80%;
+        max-width: 600px;
+        border-radius: 15px;
+        margin: 20px 0;
+    }
+
+    .botones {
+        margin-top: 20px;
+    }
+
+    .botones a {
+        display: inline-block;
+        margin: 10px;
+        padding: 12px 24px;
+        background-color: #009688;
+        color: white;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 18px;
+        transition: background 0.3s;
+    }
+
+    .botones a:hover {
+        background-color: #00796B;
+    }
+
+    footer {
+        background-color: #004D40;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 30px;
+    }
+
+    table {
+        margin: 0 auto;
+        border-collapse: collapse;
+        width: 80%;
+    }
+
+    table, th, td {
+        border: 1px solid #00796B;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: center;
+    }
+
+    iframe {
+        margin: 20px 0;
+        border-radius: 12px;
+    }
+</style></head><body>
+<header></header><h1>Formulario de Contacto</h1>
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="campeche.html">Campeche</a>
+    <a href="yucatan.html">Yucatán</a>
+    <a href="quintanaroo.html">Quintana Roo</a>
+    <a href="contacto.html">Contacto</a>
+</nav>
+<div class="contenido">
+    <p>¿Tienes dudas o quieres compartir tu
+experiencia viajando por la península? Llena este formulario y nos
+pondremos en contacto contigo.</p>
+    <form action="mailto:ejemplo@correo.com" method="post" enctype="text/plain">
+        <label>Nombre:</label><br>
+        <input name="nombre" required="" type="text"><br><br>
+        <label>Correo electrónico:</label><br>
+        <input name="email" required="" type="email"><br><br>
+        <label>Estado de interés:</label><br>
+        <select name="estado">
+            <option>Campeche</option>
+            <option>Yucatán</option>
+            <option>Quintana Roo</option>
+        </select><br><br>
+        <label>Mensaje:</label><br>
+        <textarea name="mensaje" rows="6" cols="40"></textarea><br><br>
+        <input value="Enviar" type="submit">
+        <input value="Limpiar" type="reset">
+    </form>
+</div>
+<footer></footer><p><br>
+</p>
+
+</body></html>
